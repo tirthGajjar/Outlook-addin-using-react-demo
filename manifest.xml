@@ -53,7 +53,7 @@
 
   <Permissions>ReadWriteItem</Permissions>
   <Rule xsi:type="RuleCollection" Mode="Or">
-    <Rule xsi:type="ItemIs" ItemType="Message" FormType="Read" />
+    <Rule xsi:type="ItemIs" ItemType="Message" FormType="Write" />
   </Rule>
   <DisableEntityHighlighting>false</DisableEntityHighlighting>
 
@@ -71,7 +71,7 @@
           <FunctionFile resid="functionFile" />
 
           <!-- Message Read -->
-          <ExtensionPoint xsi:type="MessageReadCommandSurface">
+          <ExtensionPoint xsi:type="MessageComposeCommandSurface">
             <!-- Use the default tab of the ExtensionPoint or create your own with <CustomTab id="myTab"> -->
             <OfficeTab id="TabDefault">
               <!-- Up to 6 Groups added per Tab -->
@@ -113,10 +113,10 @@
         <bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://localhost:3000/index.html"/>
       </bt:Urls>
       <bt:ShortStrings>
-        <bt:String id="groupLabel" DefaultValue="My Add-in Group"/>
-        <bt:String id="customTabLabel"  DefaultValue="My Add-in Tab"/>
-        <bt:String id="paneReadButtonLabel" DefaultValue="Display all properties"/>
-        <bt:String id="paneReadSuperTipTitle" DefaultValue="Get all properties"/>
+        <bt:String id="groupLabel" DefaultValue="Utilities"/>
+        <bt:String id="customTabLabel"  DefaultValue="Utilities"/>
+        <bt:String id="paneReadButtonLabel" DefaultValue="Demo Plugin"/>
+        <bt:String id="paneReadSuperTipTitle" DefaultValue="Demo Plugin"/>
       </bt:ShortStrings>
       <bt:LongStrings>
         <bt:String id="paneReadSuperTipDescription" DefaultValue="Opens a pane displaying all available properties. This is an example of a button that opens a task pane."/>
