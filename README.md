@@ -1,4 +1,11 @@
 # **Developing Office 365 Outlook Add-in with [Office UI Fabric React](https://developer.microsoft.com/en-us/fabric#/get-started#react)**
+
+## **Note:**
+- Outlook add-in works only for Office365 users and not for any other users with Gmail or simple outlook.com accounts.
+- Outlook add-in can be developded using one of the pure JS, React JS, Angular JS or Vue JS
+- Before developing any add-on for production environment, please go through best practices suggested by Microsoft  
+https://docs.microsoft.com/en-us/office/dev/add-ins/concepts/add-in-development-best-practices   
+https://docs.microsoft.com/en-us/office/dev/add-ins/design/ux-design-pattern-templates
  
 ## **Technology Stack**
 1) React - Office UI Fabric React - For the UI design
@@ -109,11 +116,6 @@ https://docs.microsoft.com/en-us/outlook/add-ins/
 https://docs.microsoft.com/en-us/outlook/add-ins/quick-start?tabs=visual-studio-code
 
 https://docs.microsoft.com/en-us/outlook/add-ins/addin-tutorial
-
-
-https://docs.microsoft.com/en-us/office/dev/add-ins/design/ux-design-pattern-templates
-
-https://docs.microsoft.com/en-us/office/dev/add-ins/concepts/add-in-development-best-practices
 
 https://docs.microsoft.com/en-us/office/dev/add-ins/concepts/add-in-development-lifecycle
 
